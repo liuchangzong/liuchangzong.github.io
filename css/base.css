@@ -1,0 +1,277 @@
+
+* {
+	margin: 0;
+	padding: 0;}
+
+.w{
+	width: 1190px;
+	margin: auto;/*只有给了宽度才能用margin*/
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.style-red {
+	color: red!important;
+}
+li {
+	list-style: none;
+}
+body {
+	background-color: #F0F3EF;
+}
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?h3xy3t');
+  src:  url('../fonts/icomoon.eot?h3xy3t#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?h3xy3t') format('truetype'),
+    url('../fonts/icomoon.woff?h3xy3t') format('woff'),
+    url('../fonts/icomoon.svg?h3xy3t#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.topimage {
+			
+			background-color: #EA4332;
+			height: 80px;
+		}
+.topimage a {
+			display: block;
+			height: 80px;/*背景需要给高，如果是插入图片则不需要*/
+			background: url(../images/top.png) no-repeat;/*在CSS中翻出来*/
+			position: relative;
+		}
+.topimage a i {
+
+	font-family: "icomoon";
+	position: absolute;
+	right: 0;
+	top: 8px;
+	font-style: normal;
+	color: #fff;
+}
+.shortcut {
+	height: 30px;
+	line-height: 30px;
+	background-color:#E3E4E5;
+	border-bottom: 1px solid #DDDDDD;
+}
+.shortcut .fl {
+	margin-left: 290px;
+	font-size: 14px;
+	height: 30px;
+}
+.shortcut .fl span {
+	font-family: "icomoon";
+	color: #F10215;
+	font-style: normal;
+	font-size: 14px;
+}
+.shortcut .fr li {
+	float: left;
+}
+.shortcut .fr a {
+	text-decoration: none;
+	font-size: 14px;
+	color: #99AEC3;
+}
+.shortcut .fr a:hover {
+	color: #FF0000;
+}
+.spacer {
+	width: 1px;
+	height: 10px;
+	margin: 10px 15px;
+	background-color:#ccc;
+
+}
+.spacer2 {
+	width: 2px;
+	height: 24px;
+	margin: 0px 27px;
+	background-color:#ccc;
+
+}
+.dropdown {
+	padding-right: 10px;
+	position: relative;
+}
+.dropdown i {
+	font-family: "icomoon";
+	font-style: normal;
+	position: absolute;
+	right: -11px;
+	top: 1px;
+}
+.erweima {
+	width: 140px;
+	height: 140px;
+	border: 4px solid #ccc;
+	position: absolute;
+	left: -12px;
+	top: 30px;
+}
+.search-father {
+	height: 170px;
+	position: relative;
+	border: 1px solid red;
+}
+.logo {
+	height: 170px;
+	position: relative;
+}
+.logo a {
+	position: absolute;
+	background-image: url(../images/dog.gif)  ;
+	width: 190px;
+	height: 170px;
+	box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.2);
+	left: 0px;
+	top: -31px;
+	text-indent: -99999px;
+}
+.search {
+	position: absolute;
+	top: 25px;
+	left: 400px;
+}
+.search input {
+	width: 495px;
+	height: 50px;
+	outline: none; 
+	padding: 10px;
+	border: 0;
+	float: left;
+	color: #989898;
+	font-size: 18px;
+}
+button {
+	width: 68px;
+	height: 50px;
+	float: left;
+	background-color: #F10215;
+	font-family: "icomoon";
+	font-style: normal;
+	font-size: 35px;
+	border: 0;
+	cursor: pointer;
+	color: #fff;
+}
+.hotwords {
+	position: absolute;
+	top: 90px;
+	left: 400px;
+}
+.hotwords a {
+	text-decoration: none;
+	font-weight: 400;
+	margin-right: 15px;
+	font-size: 12px;
+	color:  #989898;
+}
+
+.hotwords a:hover{
+	color: #f10215;
+}
+.keywords {
+	position: absolute;
+	height: 33px;
+	left: 310px;
+	bottom: 0;
+}
+.keywords ul {
+	float: left;
+}
+.keywords  li {
+	float: left;
+	
+	font-size: 16px;
+	font-weight: 700;
+}
+.keywords a {
+	text-decoration: none;
+	margin-left: 41px;
+	color: #333333;
+
+}
+.keywords .special {
+	margin-left: 10px;
+}
+.keywords a:hover {
+	color: #F10215;
+}
+.footer-brag {
+	height: 110px;
+	border-bottom: 2px solid #DEDEDE;
+}
+.footer-brag-center {
+	height: 40px;
+	padding-top: 40px;
+	padding-bottom: 30px;
+}
+.footer-brag-center li {
+	float: left;
+	height: 40px;
+	width: 267px;
+	margin-left: 30px;
+}
+.footer-brag-center li div { 
+	display: inline-block;
+	width: 40px;
+	float: left;
+}
+.footer-brag-center li p {
+	float: left;
+	display: inline-block;
+	width: 227px;
+	height: 45px;
+	line-height: 45px;
+	font-size: 16px;
+	font-weight: 700;
+	
+}
+.footer-brag-center div {
+	width: 40px;
+	height: 45px;
+}
+.one div{
+	background: url(../images/sprite.png) no-repeat 0 -190px;
+}
+.two div{
+	background: url(../images/sprite.png) no-repeat -40px -190px;
+}
+.three div {
+	background: url(../images/sprite.png) no-repeat -80px -190px;
+}
+.four div{
+	background: url(../images/sprite.png) no-repeat -120px -190px;
+}
+.introduce-center {
+	height: 200px;
+	border-bottom: 1px solid #dedede;
+}
+.introduce-center dl {
+	width: 198px;
+	float: left;
+}
+.introduce-center dt {
+	font-size: 14px;
+	color: #666666;
+	padding-top: 20px;
+	height: 25px;
+	font-weight: 700;
+}
+.introduce-center dd a {
+	display: block;
+	text-decoration: none;
+	color: #666666;
+	font-size: 12px;
+	height: 23px;
+}
+.introduce-center dd {
+	color: #666666;
+	font-size: 12px;
+	width: 150px;
+}
