@@ -1,11 +1,93 @@
 
 * {
 	margin: 0;
-	padding: 0;}
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+.topbar{
+    /*background-color:green;*/
+    height:100px;
+    position:fixed;
+    width:100%;
+
+
+}
+body{
+	background-image: url(../images/tree.jpg);
+	background-position:center top;
+	background-repeat:no-repeat;
+}
+.topbar div{
+    /*background-color: pink;*/
+	color:white;
+	font-size: larger;
+	font-weight: 900;
+	height:25px;
+	width:100%;
+    position:absolute;
+    top:50%;
+    margin-top:-12.5px;
+
+}
+.topbar a{
+	margin-left:100px;
+	color:white;
+	font-weight: 500;
+
+}
+#logo{
+
+	margin-left:200px;
+}
+
+
+
+
+.topbar li{
+    background-color:white;
+
+	margin:0;
+	padding:0;
+    float:right;
+	/*浮动会受限于父盒子*/
+    margin-right:50px;
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.shortcut{
+    margin-top: 100px;
+	background-color: purple;
+}
+
+
+
+
+
 
 .w{
 	width: 1190px;
 	margin: auto;/*只有给了宽度才能用margin*/
+    background-color: purple;
 }
 .fl {
 	float: left;
